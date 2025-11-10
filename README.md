@@ -1,83 +1,91 @@
-# Mental Wellness Hub
+# SYMPTM - AI-Powered Symptom Matching Platform
 
-A personal mental health wellness website built with Next.js, featuring mood tracking, breathing exercises, and journaling capabilities.
+A web application that connects people experiencing similar health symptoms and illnesses, helping them discover solutions from others who have faced matching conditions.
 
 ## Features
 
-- **Mood Tracker**: Log and track your daily moods with notes
-- **Breathing Exercises**: Guided breathing exercises with customizable durations
-- **Journal**: Write and organize your thoughts with journal prompts
-- **Mental Health Resources**: Quick access to crisis support lines
-- **Local Storage**: All data is stored locally in your browser
+- **Detailed Symptom Input**: Describe your illness and symptoms in detail
+- **AI-Powered Matching**: Advanced algorithms match your symptoms with other users
+- **Solution Discovery**: See what treatments and solutions worked for users with similar conditions
+- **Community-Driven**: Learn from real experiences shared by people with matching symptoms
+- **Privacy-Focused**: Local storage for sensitive health data
+
+## Live Demo
+
+[View Live App](https://mental-wellness-app-seven.vercel.app/)
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 15, React 19
+- **Styling**: Tailwind CSS
+- **Data Storage**: Local Storage API
+- **Deployment**: Vercel
+
+## How It Works
+
+1. **Describe Your Symptoms**: Enter detailed information about your illness and symptoms
+2. **AI Matching**: The system analyzes and matches your profile with similar cases
+3. **Discover Solutions**: View what worked for others with matching symptoms
+4. **Community Insights**: Learn from real experiences and treatment outcomes
 
 ## Getting Started
 
+### Prerequisites
+- Node.js 18+ installed
+- npm or yarn package manager
+
 ### Installation
-
 ```bash
+# Clone the repository
+git clone https://github.com/diasflx/mental_wellness_app.git
+
+# Navigate to project directory
+cd mental_wellness_app
+
+# Install dependencies
 npm install
-```
 
-### Development
-
-Run the development server:
-
-```bash
+# Run development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
 
-### Build
-
-Build the application for production:
-
+## Build for Production
 ```bash
+# Build the application
 npm run build
-```
 
-### Start
-
-Start the production server:
-
-```bash
+# Start production server
 npm start
 ```
 
 ## Deployment
 
-This application is configured for static export and can be deployed to various platforms:
+This application is configured for static export and can be deployed to:
 
-### Vercel (Recommended)
+- **Vercel**: One-click deployment
+- **Netlify**: Deploy the `out` folder after running `npm run build`
+- **GitHub Pages**: Deploy the `out` folder
 
-1. Push your code to GitHub
-2. Import your repository to [Vercel](https://vercel.com)
-3. Deploy with one click
+## Disclaimer
 
-### Netlify
+This application is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.
 
-1. Build the application: `npm run build`
-2. Deploy the `out` folder to [Netlify](https://www.netlify.com)
+## Contributing
 
-### GitHub Pages
-
-1. Build the application: `npm run build`
-2. Deploy the `out` folder to GitHub Pages
-
-## Technologies Used
-
-- Next.js 15
-- React 19
-- Tailwind CSS
-- Local Storage API
-
-## Important Note
-
-This website is for wellness support and is not a substitute for professional mental health care. If you're experiencing a mental health crisis, please contact:
-
-- **National Suicide Prevention Lifeline**: 988
-- **Crisis Text Line**: Text HOME to 741741
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/diasflx/mental_wellness_app/issues).
 
 ## License
 
 MIT
+
+## Author
+
+**Said Jafarov**
+- GitHub: [@diasflx](https://github.com/diasflx)
+- Email: s2jafaro@uwaterloo.ca
+
+---
+
+*Built with Next.js and deployed on Vercel*
